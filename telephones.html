@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nos Téléphones — InfinityPhone</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header id="main-header">
+    <div class="header-left">
+      <a href="index.html"><img src="logo.svg" alt="InfinityPhone Logo" class="logo"></a>
+      <div class="site-name">
+        InfinityPhone
+        <span>Réservation &amp; Vente</span>
+      </div>
+    </div>
+    <nav id="main-nav">
+      <a href="index.html">Accueil</a>
+      <a href="telephones.html" class="active">Téléphones</a>
+      <a href="reservation.html">Réserver</a>
+      <a href="login.html">Connexion</a>
+    </nav>
+  </header>
+
+  <!-- ===== PAGE BANNER ===== -->
+  <div class="page-banner">
+    <h1>📱 Nos Téléphones</h1>
+    <p>Découvrez notre sélection des meilleurs smartphones du marché</p>
+  </div>
+
+  <!-- ===== MAIN ===== -->
+  <main>
+
+    <!-- Filter tabs -->
+    <div class="filter-bar" id="filter-bar">
+      <button class="filter-tab active" data-filter="all">Tous les modèles</button>
+      <button class="filter-tab" data-filter="samsung">Samsung</button>
+      <button class="filter-tab" data-filter="iphone">iPhone</button>
+      <button class="filter-tab" data-filter="redmi">Redmi</button>
+    </div>
+
+    <!-- ===== SAMSUNG ===== -->
+    <section id="samsung" data-category="samsung">
+      <div class="phones-header">
+        <h2>Nos Samsung</h2>
+        <div class="brand-line"></div>
+      </div>
+      <div class="phone-list">
+
+        <div class="phone-item" data-brand="samsung" style="animation-delay:0.05s">
+          <img src="phones/samsung s25 ultra.avif"
+               alt="Samsung Galaxy S25 Ultra" loading="lazy">
+          <p class="phone-name">Galaxy S25 Ultra</p>
+          <p class="phone-price">dès 1 329€</p>
+          <a href="reservation.html?modele=Samsung%20Galaxy%20S25%20Ultra" class="reserve-btn">Réserver</a>
+        </div>
+
+        <div class="phone-item" data-brand="samsung" style="animation-delay:0.10s">
+          <img src="phones/samsung s25+.avif"
+               alt="Samsung Galaxy S25+" loading="lazy">
+          <p class="phone-name">Galaxy S25+</p>
+          <p class="phone-price">dès 1 169€</p>
+          <a href="reservation.html?modele=Samsung%20Galaxy%20S25%2B" class="reserve-btn">Réserver</a>
+        </div>
+
+        <div class="phone-item" data-brand="samsung" style="animation-delay:0.15s">
+          <img src="phones/samsung s25.avif"
+               alt="Samsung Galaxy S25" loading="lazy">
+          <p class="phone-name">Galaxy S25</p>
+          <p class="phone-price">dès 919€</p>
+          <a href="reservation.html?modele=Samsung%20Galaxy%20S25" class="reserve-btn">Réserver</a>
+        </div>
+
+        <div class="phone-item" data-brand="samsung" style="animation-delay:0.20s">
+          <img src="phones/samsung-z-fold6.avif"
+               alt="Samsung Galaxy Z Fold6" loading="lazy">
+          <p class="phone-name">Galaxy Z Fold6</p>
+          <p class="phone-price">dès 1 929€</p>
+          <a href="reservation.html?modele=Samsung%20Galaxy%20Z%20Fold6" class="reserve-btn">Réserver</a>
+        </div>
+
+        <div class="phone-item" data-brand="samsung" style="animation-delay:0.25s">
+          <img src="phones/samsung-zflip6.avif"
+               alt="Samsung Galaxy Z Flip6" loading="lazy">
+          <p class="phone-name">Galaxy Z Flip6</p>
+          <p class="phone-price">dès 1 099€</p>
+          <a href="reservation.html?modele=Samsung%20Galaxy%20Z%20Flip6" class="reserve-btn">Réserver</a>
+        </div>
+
+        <div class="phone-item" data-brand="samsung" style="animation-delay:0.30s">
+          <img src="phones/samsung s24.avif"
+               alt="Samsung Galaxy S24" loading="lazy">
+          <p class="phone-name">Galaxy S24</p>
+          <p class="phone-price">dès 749€</p>
+          <a href="reservation.html?modele=Samsung%20Galaxy%20S24" class="reserve-btn">Réserver</a>
+        </div>
+
+        <div class="phone-item" data-brand="samsung" style="animation-delay:0.35s">
+          <img src="phones/samsung s24fe.webp"
+               alt="Samsung Galaxy S24 FE" loading="lazy">
+          <p class="phone-name">Galaxy S24 FE</p>
+          <p class="phone-price">dès 649€</p>
+          <a href="reservation.html?modele=Samsung%20Galaxy%20S24%20FE" class="reserve-btn">Réserver</a>
+        </div>
+
+        <div class="phone-item" data-brand="samsung" style="animation-delay:0.40s">
+          <img src="phones/samsung a56-5g.avif"
+               alt="Samsung Galaxy A56 5G" loading="lazy">
+          <p class="phone-name">Galaxy A56 5G</p>
+          <p class="phone-price">dès 449€</p>
+          <a href="reservation.html?modele=Samsung%20Galaxy%20A56%205G" class="reserve-btn">Réserver</a>
+        </div>
+
+        <div class="phone-item" data-brand="samsung" style="animation-delay:0.45s">
+          <img src="phones/samsung a36.webp"
+               alt="Samsung Galaxy A36" loading="lazy">
+          <p class="phone-name">Galaxy A36</p>
+          <p class="phone-price">dès 349€</p>
+          <a href="reservation.html?modele=Samsung%20Galaxy%20A36" class="reserve-btn">Réserver</a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ===== IPHONE ===== -->
+    <section id="iphone" data-category="iphone">
+      <div class="phones-header">
+        <h2>Nos iPhone</h2>
+        <div class="brand-line"></div>
+      </div>
+      <div class="phone-list">
+
+        <div class="phone-item" data-brand="iphone" style="animation-delay:0.05s">
+          <img src="phones/iphone16pro.jpeg"
+               alt="iPhone 16 Pro" loading="lazy">
+          <p class="phone-name">iPhone 16 Pro / Pro Max</p>
+          <p class="phone-price">dès 1 229€</p>
+          <a href="reservation.html?modele=iPhone%2016%20Pro" class="reserve-btn">Réserver</a>
+        </div>
+
+        <div class="phone-item" data-brand="iphone" style="animation-delay:0.10s">
+          <img src="phones/iphone16.jpeg"
+               alt="iPhone 16" loading="lazy">
+          <p class="phone-name">iPhone 16 / 16 Plus</p>
+          <p class="phone-price">dès 979€</p>
+          <a href="reservation.html?modele=iPhone%2016" class="reserve-btn">Réserver</a>
+        </div>
+
+        <div class="phone-item" data-brand="iphone" style="animation-delay:0.15s">
+          <img src="phones/iphone-16e.jpeg"
+               alt="iPhone 16e" loading="lazy">
+          <p class="phone-name">iPhone 16e</p>
+          <p class="phone-price">dès 729€</p>
+          <a href="reservation.html?modele=iPhone%2016e" class="reserve-btn">Réserver</a>
+        </div>
+
+        <div class="phone-item" data-brand="iphone" style="animation-delay:0.20s">
+          <img src="phones/iphone15.jpeg"
+               alt="iPhone 15" loading="lazy">
+          <p class="phone-name">iPhone 15</p>
+          <p class="phone-price">dès 849€</p>
+          <a href="reservation.html?modele=iPhone%2015" class="reserve-btn">Réserver</a>
+        </div>
+
+        <div class="phone-item" data-brand="iphone" style="animation-delay:0.25s">
+          <img src="phones/iphone_14.avif"
+               alt="iPhone 14" loading="lazy">
+          <p class="phone-name">iPhone 14</p>
+          <p class="phone-price">dès 749€</p>
+          <a href="reservation.html?modele=iPhone%2014" class="reserve-btn">Réserver</a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ===== REDMI ===== -->
+    <section id="redmi" data-category="redmi">
+      <div class="phones-header">
+        <h2>Nos Redmi</h2>
+        <div class="brand-line"></div>
+      </div>
+      <div class="phone-list">
+
+        <div class="phone-item" data-brand="redmi" style="animation-delay:0.05s">
+          <img src="phones/redmi note14 pro 5g.webp"
+               alt="Redmi Note 14 Pro 5G" loading="lazy">
+          <p class="phone-name">Redmi Note 14 Pro 5G</p>
+          <p class="phone-price">dès 349€</p>
+          <a href="reservation.html?modele=Redmi%20Note%2014%20Pro%205G" class="reserve-btn">Réserver</a>
+        </div>
+
+        <div class="phone-item" data-brand="redmi" style="animation-delay:0.10s">
+          <img src="phones/redmi note14.webp"
+               alt="Redmi Note 14 5G" loading="lazy">
+          <p class="phone-name">Redmi Note 14 5G</p>
+          <p class="phone-price">dès 249€</p>
+          <a href="reservation.html?modele=Redmi%20Note%2014%205G" class="reserve-btn">Réserver</a>
+        </div>
+
+        <div class="phone-item" data-brand="redmi" style="animation-delay:0.15s">
+          <img src="phones/redmi 14c.webp"
+               alt="Redmi 14C" loading="lazy">
+          <p class="phone-name">Redmi 14C</p>
+          <p class="phone-price">dès 149€</p>
+          <a href="reservation.html?modele=Redmi%2014C" class="reserve-btn">Réserver</a>
+        </div>
+
+        <div class="phone-item" data-brand="redmi" style="animation-delay:0.20s">
+          <img src="phones/redmi 13c.webp"
+               alt="Redmi 13C" loading="lazy">
+          <p class="phone-name">Redmi 13C</p>
+          <p class="phone-price">dès 129€</p>
+          <a href="reservation.html?modele=Redmi%2013C" class="reserve-btn">Réserver</a>
+        </div>
+
+        <div class="phone-item" data-brand="redmi" style="animation-delay:0.25s">
+          <img src="phones/redmi a3.webp"
+               alt="Redmi A3" loading="lazy">
+          <p class="phone-name">Redmi A3</p>
+          <p class="phone-price">dès 109€</p>
+          <a href="reservation.html?modele=Redmi%20A3" class="reserve-btn">Réserver</a>
+        </div>
+
+        <div class="phone-item" data-brand="redmi" style="animation-delay:0.30s">
+          <img src="phones/redmi a5.webp"
+               alt="Redmi A5" loading="lazy">
+          <p class="phone-name">Redmi A5</p>
+          <p class="phone-price">dès 129€</p>
+          <a href="reservation.html?modele=Redmi%20A5" class="reserve-btn">Réserver</a>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-col">
+        <img src="logo.svg" alt="Logo" class="footer-logo">
+        <p class="footer-tagline">Votre destination pour les meilleurs smartphones au meilleur prix.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Navigation</h4>
+        <a href="index.html">Accueil</a>
+        <a href="telephones.html">Téléphones</a>
+        <a href="reservation.html">Réserver</a>
+        <a href="login.html">Connexion</a>
+      </div>
+      <div class="footer-col">
+        <h4>Marques</h4>
+        <a href="#samsung">Samsung</a>
+        <a href="#iphone">iPhone</a>
+        <a href="#redmi">Redmi</a>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <a href="contact.html">Nous contacter</a>
+        <p>contact@infinityphone.fr</p>
+        <p>+33 1 23 45 67 89</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 InfinityPhone. Tous droits réservés.</span>
+      <a href="contact.html">Contact</a>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>

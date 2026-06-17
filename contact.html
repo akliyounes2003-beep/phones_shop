@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact — InfinityPhone</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header id="main-header">
+    <div class="header-left">
+      <a href="index.html"><img src="logo.svg" alt="InfinityPhone Logo" class="logo"></a>
+      <div class="site-name">
+        InfinityPhone
+        <span>Réservation &amp; Vente</span>
+      </div>
+    </div>
+    <nav id="main-nav">
+      <a href="index.html">Accueil</a>
+      <a href="telephones.html">Téléphones</a>
+      <a href="reservation.html">Réserver</a>
+      <a href="login.html">Connexion</a>
+    </nav>
+  </header>
+
+  <!-- ===== PAGE BANNER ===== -->
+  <div class="page-banner">
+    <h1>✉️ Contactez-nous</h1>
+    <p>Notre équipe vous répond dans les plus brefs délais</p>
+  </div>
+
+  <!-- ===== MAIN ===== -->
+  <main>
+    <div class="contact-layout">
+
+      <!-- Left: Info block -->
+      <div class="contact-info">
+        <h3>Parlons ensemble</h3>
+
+        <div class="contact-item">
+          <span class="ci-icon">📍</span>
+          <div>
+            <strong>Adresse</strong>
+            <p>12 Rue de la Paix<br>75001 Paris, France</p>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <span class="ci-icon">📞</span>
+          <div>
+            <strong>Téléphone</strong>
+            <p>+33 1 23 45 67 89</p>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <span class="ci-icon">✉️</span>
+          <div>
+            <strong>Email</strong>
+            <p>contact@infinityphone.fr</p>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <span class="ci-icon">🕐</span>
+          <div>
+            <strong>Horaires</strong>
+            <p>Lun – Ven : 9h – 18h<br>Sam : 10h – 15h</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right: Form block -->
+      <div class="contact-form-box">
+        <h2>Envoyer un message</h2>
+
+        <form id="contact-form">
+          <label for="nom">Votre nom</label>
+          <input type="text" id="nom" name="nom"
+                 placeholder="Jean Dupont" required>
+
+          <label for="email">Votre email</label>
+          <input type="email" id="email" name="email"
+                 placeholder="jean@exemple.fr" required>
+
+          <label for="message">Votre message</label>
+          <textarea id="message" name="message"
+                    placeholder="Bonjour, je souhaite des informations sur..." required></textarea>
+
+          <button type="submit">Envoyer le message →</button>
+        </form>
+      </div>
+    </div>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-col">
+        <img src="logo.svg" alt="Logo" class="footer-logo">
+        <p class="footer-tagline">Votre destination pour les meilleurs smartphones au meilleur prix.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Navigation</h4>
+        <a href="index.html">Accueil</a>
+        <a href="telephones.html">Téléphones</a>
+        <a href="reservation.html">Réserver</a>
+        <a href="login.html">Connexion</a>
+      </div>
+      <div class="footer-col">
+        <h4>Marques</h4>
+        <a href="telephones.html#samsung">Samsung</a>
+        <a href="telephones.html#iphone">iPhone</a>
+        <a href="telephones.html#redmi">Redmi</a>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <a href="contact.html">Nous contacter</a>
+        <p>contact@infinityphone.fr</p>
+        <p>+33 1 23 45 67 89</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 InfinityPhone. Tous droits réservés.</span>
+      <a href="contact.html">Contact</a>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
+
